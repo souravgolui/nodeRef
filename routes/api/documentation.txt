@@ -1,0 +1,39 @@
+API routes->
+/api/log/register - to sign up
+/api/log/login - to login
+/api/log/<type> - for google fb twitter login.... set the type as intended
+
+/api/profile -for loaing profile with own feeds
+/api/profile/info - info for filling the update form
+/api/profile/other -to get other person's profile
+/api/profile/can_comment -to prevent commenting
+/api/profile/update - to update proffile information
+/api/profile/update_password -  to change password
+/api/profile/update_image to update profile image
+
+/api/userdata/nearby - to get all the nearrby people
+/api/userdata/suggestion - to get all the suggested peoples
+/api/userdata/stop_suggestion - to initiate stopping suggestion list
+/api/userdata/search - to search other users
+/api/userdata/follow -  to follow someone
+/api/userdata/followback - to follow back someone who is following the user
+/api/userdata/followers - to get the list of followers of the user
+/api/userdata/following - to get the list of people the user is following
+
+/api/post/ - for posting a feed 
+/api/post/delete - for deleteing a feed
+/api/post/load - for loading all feeds related to user and the people he follows
+/api/post/load/identical - for loading posts that are identical to the given post_id by means of catagory
+/api/post/trending - for loading trending posts
+/api/post/like - to like a post
+/api/post/like/load - to load all the likes associated with a post
+/api/post/answer - to answer a post
+/api/post/answer/load - to load all the answers associated with a post
+/api/post/comment - to comment on a post
+/api/post/comment/load - to load comments associated with a particular post
+/api/post/comment/delete - to delete a comment
+/api/post/comment/edit - to edit a comment
+
+admin/catagory - to get list of available catagories
+admin/catagory/add - to add catagory
+admin/catagory/remove - to remove catagory

@@ -1,0 +1,25 @@
+{
+  "name": "storm-the-gate-backend",
+  "version": "1.0.0",
+  "description": "social network for church",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OGMA Conceptions",
+  "license": "ISC",
+  "dependencies": {
+    "async": "*",
+    "bcrypt": "^3.0.0",
+    "body-parser": "*",
+    "express": "*",
+    "express-validator": "*",
+    "ffmpeg": "*",
+    "jimp": "*",
+    "mongoose": "*",
+    "multer": "*",
+    "socket.io": "^2.1.1",
+    "underscore": "*",
+    "which-country": "*"
+  }
+}
